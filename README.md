@@ -7,3 +7,4 @@ These files refer to the an article that illustrates how to build and handle a n
 - Entry Point `app_pc.py`
 - Peers configuration `Dockerfile`
 - Network/Service configuration: `docker-compose.yml`
+- A script to download logs from peers: `extractlog.sh`
