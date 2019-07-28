@@ -1,0 +1,16 @@
+version: '2.4'
+
+services:
+  peer:
+    image: docker-network-peer:latest
+    networks:
+     - docker-network-test
+
+networks:
+    my_virtual_net:
+      driver: bridge
+      ipam:
+        driver: default
+        config:
+          - subnet: 172.20.0.0/16
+            gateway: 172.20.0.2
