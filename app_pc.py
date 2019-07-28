@@ -22,5 +22,5 @@ def add():
         return "done"
     return "miss peer-ip"
 
-app.run(debug=True, port=2222, host='172.20.0.2')
+app.run(debug=True, port=2222, host='0.0.0.0')
 
