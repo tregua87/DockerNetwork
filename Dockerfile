@@ -7,4 +7,4 @@ RUN apt-get install wget -y
 RUN mkdir -p /home/peer
 COPY . /home/peer/
 
-CMD wget 172.20.0.22:2222/add; sleep 50
+CMD wget 172.20.0.2:2222/add; sleep 50; echo "I am done" > local.txt
