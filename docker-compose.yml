@@ -7,7 +7,7 @@ services:
      - docker-network-test
 
 networks:
-    my_virtual_net:
+    docker-network-test:
       driver: bridge
       ipam:
         driver: default
